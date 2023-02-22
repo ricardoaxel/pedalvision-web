@@ -1,27 +1,17 @@
-import { GraphContainer } from "./GraphContainer"
-import { DoubleSlider } from "./DoubleSlider"
-import { CustomTooltipContainer } from "./CustomToolTip"
-import { CustomAreaChart } from "./CustomAreaChart"
-import { CustomBubbleChart } from "./CustomBubbleChart"
-import { CustomInput } from "./CustomInput"
-import { CustomButton } from "./CustomButton"
-import { Loader } from "./Loader"
-import { LogoutButton } from "./LogoutButton"
-import { LoginButton } from "./LoginButton"
-import { Header } from "./Header"
-import { ChangeThemeButton } from "./ChangeThemeButton"
+import { ButtonCustom } from "./ButtonCustom"
+import { PBElement } from "./PBElement"
+import { InputNumberCustom } from "./InputNumberCustom"
+import { InputCheckboxCustom } from "./InputCheckboxCustom"
+import { SwitchCustom } from "./SwitchCustom"
+import { SelectCustom } from "./SelectCustom"
+import { SwitchTheme } from "./SwitchTheme"
 
 export {
-  GraphContainer,
-  DoubleSlider,
-  CustomTooltipContainer,
-  CustomAreaChart,
-  CustomBubbleChart,
-  CustomInput,
-  CustomButton,
-  Loader,
-  LogoutButton,
-  LoginButton,
-  Header,
-  ChangeThemeButton,
+  SwitchTheme,
+  SwitchCustom,
+  InputCheckboxCustom,
+  InputNumberCustom,
+  PBElement,
+  ButtonCustom,
+  SelectCustom,
 }
